@@ -1,0 +1,24 @@
+{
+  "name": "zadanie_15_6",
+  "version": "1.0.0",
+  "description": "Stoper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel js/script.js --watch --out-file js/script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasz-konecki/zadanie_15_6.git"
+  },
+  "author": "Tomek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasz-konecki/zadanie_15_6/issues"
+  },
+  "homepage": "https://github.com/tomasz-konecki/zadanie_15_6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}

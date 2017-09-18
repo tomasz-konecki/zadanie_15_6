@@ -76,19 +76,17 @@ var Stopwatch = function () {
     return Stopwatch;
 }();
 
-var stopwatch = new Stopwatch(document.querySelector('.stopwatch'));
+var stopwatch = new Stopwatch(document.querySelector('.stopwatch')),
+    startButton = document.getElementById('start'),
+    stopButton = document.getElementById('stop'),
+    resetButton = document.getElementById('reset');
 
-var startButton = document.getElementById('start');
 startButton.addEventListener('click', function () {
     return stopwatch.start();
 });
-
-var stopButton = document.getElementById('stop');
 stopButton.addEventListener('click', function () {
     return stopwatch.stop();
 });
-
-var resetButton = document.getElementById('reset');
 resetButton.addEventListener('click', function () {
     stopwatch.reset();
     stopwatch.print();

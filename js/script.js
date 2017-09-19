@@ -70,5 +70,4 @@ resetButton.addEventListener('click', () => {
 function pad0(value) {
     let result = value.toString();
     return result.length < 2 ? '0' + result : result;
-
 }
